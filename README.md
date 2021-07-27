@@ -88,7 +88,7 @@ the sum is greater tan or equal to the integer passed to the function.
 If there isn't one, return 0 instead.
 
 ```js
-console.log(minSubArrayLen([2,3,1,2,4,3],7)) // 2 -> because [4,3] smallest subarray
+minSubArrayLen([2,3,1,2,4,3],7) // 2 -> because [4,3] smallest subarray
 minSubArrayLen([2,1,6,5,4],9) // 2 -> because [5,4] is the smallest subarray
 minSubArrayLen([3,1,7,11,2,9,8,21,62,33,19],52) // 1 [62] > 52
 minSubArrayLen([1,4,16,22,5,7,8,9,10],39) // 3
@@ -101,13 +101,13 @@ Write a function called findLongestSubstring, which accpets a string and returns
 the length of the longest substring with all distinct characters
 
 ```js
-console.log(findLongestSubString('')) //0
-// console.log(findLongestSubString('rithmschool')) //7
-// console.log(findLongestSubString('thisisawesome')) //6
-// console.log(findLongestSubString('thecatinthehat')) //7
-// console.log(findLongestSubString('bbbbbb')) //1
-// console.log(findLongestSubString('longestsubstring')) //8
-// console.log(findLongestSubString('thisishowwedoit')) //6
+findLongestSubString('')//0
+findLongestSubString('rithmschool')//7
+findLongestSubString('thisisawesome') //6
+findLongestSubString('thecatinthehat') //7
+findLongestSubString('bbbbbb') //1
+findLongestSubString('longestsubstring') //8
+findLongestSubString('thisishowwedoit') //6
 ```
 <hr>
 
